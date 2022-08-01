@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do List</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .item{
+            flex: 0 1 10vw;
+        }
+        input[type=checkbox]:checked + .task{
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+<div>
+<input id="input-task" />
+<button id="add-task-button">ADD TASK</button>
+<ul id="task-list">
+
+</ul>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
